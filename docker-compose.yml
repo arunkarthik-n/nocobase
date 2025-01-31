@@ -22,7 +22,7 @@ services:
     volumes:
       - ../files/storage:/app/nocobase/storage
     expose:
-      - 80
+      - 81
     # Removed the ports mapping as per Dokploy recommendations
 
   postgres:
